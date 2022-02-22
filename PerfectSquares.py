@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/perfect-squares/
 class PerfectSquares:
     def numSquares(self, n: int) -> int:             
         tempDict = {}

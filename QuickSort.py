@@ -18,6 +18,7 @@ def QuickSort(arr: List[int]):
         if (lo>=high):
             return
         pIndex=GetPivot(arr,lo,high)
+        print("lo={} high={} pIndex={} pivot={}".format(lo,high,pIndex,arr[pIndex]))
         QuickSortSub(arr,lo,pIndex-1)
         QuickSortSub(arr,pIndex+1,high)
     
